@@ -389,7 +389,7 @@ export default function PresentingPortal() {
 
           <div>
             <label className="block text-xs font-bold text-[#1e0030] uppercase mb-2 tracking-wide"> Abstract Title *</label>
-            <textarea value={topic} onChange={e=>setTopic(e.target.value)} placeholder="Enter the final title of your accepted research abstract..." rows={4} className="w-full bg-slate-50 border border-purple-100 rounded-xl px-4 py-3.5 text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-[#4f1160]  shadow-inner resize-none" />
+            <textarea value={topic} onChange={e=>setTopic(e.target.value)} placeholder="Enter the title of your abstract..." rows={4} className="w-full bg-slate-50 border border-purple-100 rounded-xl px-4 py-3.5 text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-[#4f1160]  shadow-inner resize-none" />
           </div>
 
           <div>

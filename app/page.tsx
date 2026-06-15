@@ -378,10 +378,10 @@ export default function PresentingPortal() {
           <div>
             <label className="block text-xs font-bold text-[#1e0030] uppercase mb-2 tracking-wide">Presentation Category</label>
             <div className="grid grid-cols-2 gap-4">
-              <button onClick={()=>setPresType("oral")} className={`py-3.5 rounded-xl text-sm font-bold uppercase transition border ${presType === "oral" ? "bg-[#1e0030] border-[#1e0030] text-white shadow-sm" : "bg-white text-purple-900 border-purple-200 hover:bg-purple-50"}`}>
+              <button onClick={()=>setPresType("oral")} className={`py-3.5 rounded-xl text-xs font-bold uppercase transition border ${presType === "oral" ? "bg-[#1e0030] border-[#1e0030] text-white shadow-sm" : "bg-white text-purple-900 border-purple-200 hover:bg-purple-50"}`}>
                 Oral Presentation
               </button>
-              <button onClick={()=>setPresType("poster")} className={`py-3.5 rounded-xl text-sm font-bold uppercase transition border ${presType === "poster" ? "bg-[#1e0030] border-[#1e0030] text-white shadow-sm" : "bg-white text-slate-700 border-purple-200 hover:bg-slate-50"}`}>
+              <button onClick={()=>setPresType("poster")} className={`py-3.5 rounded-xl text-xs font-bold uppercase transition border ${presType === "poster" ? "bg-[#1e0030] border-[#1e0030] text-white shadow-sm" : "bg-white text-slate-700 border-purple-200 hover:bg-slate-50"}`}>
                 Poster Presentation
               </button>
             </div>

@@ -203,8 +203,8 @@ export default function PresentingPortal() {
     const rawTopicText = topic ? `${topic.toUpperCase()}` : '"RESEARCH PRESENTATION ABSTRACT TITLE LAYOUT SAMPLE TEXT"';
     const words = rawTopicText.split(" ");
     const isDenseTopic = words.length > 20;
-    const computedFontSize = isDenseTopic ? 15 : 17.5;
-    const computedLineHeight = isDenseTopic ? 16 : 17.5 * 1.2;
+    const computedFontSize = isDenseTopic ? 14 : 16;
+    const computedLineHeight = isDenseTopic ? 14 : 16.5 * 1.2;
     
     ctx.fillStyle = "#1e0030"; 
     ctx.font = `bold ${computedFontSize}px Arial`;
